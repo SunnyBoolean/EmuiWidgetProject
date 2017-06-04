@@ -11,19 +11,6 @@
         <!-- 小球颜色 -->
         <attr name="titlecolor" format="reference|color" />
 
-        <!-- 默认音量 -->
-        <attr name="defaultVoice" format="integer" />
-        <!-- 音量条宽度 -->
-        <attr name="voiceBarWidth" format="dimension" />
-        <!-- 音量条之间的间距 -->
-        <attr name="voiceBarDistance" format="dimension" />
-        <!-- 背景音量条的高度 -->
-        <attr name="bgVoiceHeight" format="dimension" />
-        <!-- 音量条的高度 -->
-        <attr name="fgVoiceHeight" format="dimension" />
-
-        <!-- 音量条的颜色 -->
-        <attr name="fgVoiceColor" format="reference|color" />
     </declare-styleable>
     <declare-styleable name="ScanCycleView">
         <!-- 进度条半径 -->
