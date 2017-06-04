@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00CDCD"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:id="@+id/property_animation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="属性动画" />
+
+        <Button
+            android:id="@+id/base_paint_canvas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="绘画基础" />
+
+        <Button
+            android:id="@+id/paint_shader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paint的Shader效果" />
+
+        <Button
+            android:id="@+id/path_paint_canvas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Path（路径）用法" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="进度条" />
+
+        <com.geo.widget.ProgressView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:p_color="#fcfefe"
+            app:p_radio="40dp"
+            app:titlecolor="#a0b1c2"
+            app:titleradio="8dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="进度条1" />
+        <com.geo.widget.ScanCycleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:s_color="#fcfefe"
+            app:s_titlecolor="#fcfefe"
+            app:s_radio="80dp"
+            app:s_titleradio="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="进度条2" />
+        <com.geo.widget.ScanCycleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:issweep="true"
+            app:sweepangle="60"
+            app:isgradlint="true"
+            app:s_color="#fcfefe"
+            app:s_titlecolor="#fcfefe"
+            app:s_radio="80dp"
+            app:s_titleradio="5dp" />
+
+    </LinearLayout>
+</ScrollView>
