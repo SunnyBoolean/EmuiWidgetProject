@@ -154,6 +154,8 @@ public class ScanCycleView extends View {
 
             }
         });
+        //去掉默认插值器，使小球能匀速运动
+        animator.setInterpolator(null);
         animator.setRepeatCount(-1);//无限重复
         animator.setDuration(2000);
         animator.start();
