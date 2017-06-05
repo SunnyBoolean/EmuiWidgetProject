@@ -80,6 +80,19 @@
             app:s_titlecolor="#fcfefe"
             app:s_radio="80dp"
             app:s_titleradio="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="进度条3" />
+        <com.geo.widget.ProgressV1View
+            android:layout_gravity="center_horizontal"
+            app:pv1_color="#C7C7C7"
+            app:pv1_titlecolor="#CD2626"
+            app:pv1_radio="80dp"
+            app:pv1_titleradio="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 </ScrollView>

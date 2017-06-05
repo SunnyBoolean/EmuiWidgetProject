@@ -28,4 +28,15 @@
         <attr name="isgradlint" format="boolean"></attr>
     </declare-styleable>
 
+    <declare-styleable name="ProgressV1View">
+        <!-- 进度条半径 -->
+        <attr name="pv1_radio" format="dimension" />
+        <!-- 进度条颜色 -->
+        <attr name="pv1_color" format="reference|color" />
+        <!-- 圆环宽度 -->
+        <attr name="pv1_titleradio" format="dimension" />
+        <!-- 进度条颜色 -->
+        <attr name="pv1_titlecolor" format="reference|color" />
+    </declare-styleable>
+
 </resources>
