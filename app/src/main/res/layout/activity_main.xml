@@ -52,6 +52,7 @@
             app:titlecolor="#a0b1c2"
             app:titleradio="8dp" />
         <TextView
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -66,6 +67,7 @@
             app:s_titleradio="5dp" />
         <TextView
             android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="进度条2" />
@@ -83,6 +85,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:layout_gravity="center_horizontal"
             android:text="进度条3" />
         <com.geo.widget.ProgressV1View

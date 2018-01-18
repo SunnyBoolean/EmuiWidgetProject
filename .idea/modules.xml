@@ -3,10 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EmuiWidgetProject.iml" filepath="$PROJECT_DIR$/EmuiWidgetProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/EmuiWidgetProject.iml" filepath="$PROJECT_DIR$/EmuiWidgetProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib-view/lib-view.iml" filepath="$PROJECT_DIR$/lib-view/lib-view.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib-view/lib-view.iml" filepath="$PROJECT_DIR$/lib-view/lib-view.iml" />
     </modules>
   </component>

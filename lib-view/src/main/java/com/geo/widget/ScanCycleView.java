@@ -1,18 +1,15 @@
 package com.geo.widget;
 
-import android.animation.TypeEvaluator;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
-import android.graphics.LinearGradient;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PathDashPathEffect;
 import android.graphics.PathEffect;
 import android.graphics.RectF;
-import android.graphics.Shader;
 import android.graphics.SweepGradient;
 import android.util.AttributeSet;
 import android.view.View;
@@ -191,17 +188,13 @@ public class ScanCycleView extends View {
         PathEffect pathEffect1 = new PathDashPathEffect(rectPath, 16, 8, PathDashPathEffect.Style.ROTATE);
         mPaint.setPathEffect(pathEffect1);
         canvas.drawPath(path, mPaint);
-
         //绘制小球
         float inX = mRadio + (mRadio - 85) * (float) Math.sin(currentPoint.angle / 360 * 2 * Math.PI);
         float inY = mRadio - (mRadio - 85) * (float) Math.cos(currentPoint.angle / 360 * 2 * Math.PI);
         canvas.drawCircle(inX, inY, mTitleRadio, mFgPaint);
-
     }
-
     private class CirclePoint {
         float angle;
-
         public CirclePoint(float angle) {
             this.angle = angle;
         }

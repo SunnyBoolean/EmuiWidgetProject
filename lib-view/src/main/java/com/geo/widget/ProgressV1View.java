@@ -102,6 +102,7 @@ public class ProgressV1View extends View {
 
         animator.setRepeatCount(-1);//无限重复
         animator.setDuration(1200);
+        animator.setupStartValues();
         animator.start();
     }
 

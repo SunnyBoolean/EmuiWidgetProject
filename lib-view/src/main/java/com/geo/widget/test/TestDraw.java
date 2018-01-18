@@ -65,9 +65,19 @@ public class TestDraw extends View {
         Paint paint = getPaint();
         paint.setColor(getColor(R.color.material_cyan_color_900));
         if (isfill) {
-            paint.setStyle(Paint.Style.FILL_AND_STROKE);
+            paint.setStyle(Paint.Style.STROKE);
         }
+        paint.setStrokeWidth(10);
+        paint.setFlags(Paint.STRIKE_THRU_TEXT_FLAG|Paint.UNDERLINE_TEXT_FLAG|Paint.LINEAR_TEXT_FLAG);//设置删除线下划线
+//        paint.setUnderlineText(true);//设置绘制下划线
+//        paint.setStrikeThruText(true);//设置删除线
         canvas.drawCircle(200, 200, 100, paint);
+        //用来测量文本的长度，返回文本的长度
+        float length=paint.measureText("这个文字长度是多少");
+        paint.setStyle(Paint.Style.FILL);
+        paint.setTextSize(56);
+        paint.setStrokeWidth(2);
+        canvas.drawText("测试",160,230,paint);
     }
 
     /**
